@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fal-shorts-broll-assembler"
+version = "0.1.0"
+description = "Whisper beat-map to async fal_client parallel B-roll fan-out and FFmpeg 9:16 Short assembler with per-shot latency and cost telemetry."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+live = ["fal-client>=0.5.0"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

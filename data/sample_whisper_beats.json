@@ -1,0 +1,41 @@
+{
+  "language": "en",
+  "duration_sec": 15.0,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.0,
+      "text": "Most automated video pipelines stall waiting on one GPU render at a time.",
+      "visual_prompt": "Close-up of server rack GPU status LEDs pulsing warm amber in a dark studio, 9:16 vertical framing"
+    },
+    {
+      "id": 1,
+      "start": 3.0,
+      "end": 6.0,
+      "text": "Instead of queuing shots serially, parse Whisper beat timestamps first.",
+      "visual_prompt": "Clean audio waveform slicing into five rhythmic beat markers on a dark monitor, vertical macro shot"
+    },
+    {
+      "id": 2,
+      "start": 6.0,
+      "end": 9.0,
+      "text": "Fan out all five B-roll clips concurrently over async serverless endpoints.",
+      "visual_prompt": "Five parallel luminous streams converging into a central timeline node, minimal geometric motion, 9:16"
+    },
+    {
+      "id": 3,
+      "start": 9.0,
+      "end": 12.0,
+      "text": "Log queue wait, inference latency, and exact dollar cost on every shot.",
+      "visual_prompt": "Crisp terminal telemetry dashboard displaying sub-second queue times and unit costs, vertical view"
+    },
+    {
+      "id": 4,
+      "start": 12.0,
+      "end": 15.0,
+      "text": "Then stitch frames, voiceover, and captions into a 9:16 Short in one FFmpeg pass.",
+      "visual_prompt": "Vertical 9:16 video timeline snapping cleanly into a finished high-contrast export frame"
+    }
+  ]
+}
